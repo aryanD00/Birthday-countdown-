@@ -1,5 +1,5 @@
-let birthdayDate = new Date('2024-07-23T01:00:00').getTime();
-let currentDate = new Date('2024-07-21T04:30:00').getTime();
+let birthdayDate = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate(), 1, 10, 0).getTime();
+let currentDate = new Date().getTime();
 let timeLeft = birthdayDate - currentDate;
 
 function updateCountdown() {
