@@ -1,4 +1,4 @@
-let birthdayDate = new Date('2024-07-23T00:00:00').getTime();
+let birthdayDate = new Date('2024-07-23T01:00:00').getTime();
 let currentDate = new Date('2024-07-21T04:30:00').getTime();
 let timeLeft = birthdayDate - currentDate;
 
